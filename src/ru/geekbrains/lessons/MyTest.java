@@ -1,6 +1,7 @@
 package ru.geekbrains.lessons;
 
 public class MyTest {
+
     @BeforeSuite
     public static void test1(){
         System.out.println("First Test BeforeSuite");
