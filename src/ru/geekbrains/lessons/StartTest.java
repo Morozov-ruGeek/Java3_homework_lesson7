@@ -7,6 +7,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class StartTest {
+
     public static void start (Class c){
         List<Method> methods = new ArrayList<>();
         Method[] classMethods = c.getDeclaredMethods();
@@ -46,5 +47,6 @@ public class StartTest {
                 e.printStackTrace();
             }
         }
+
     }
 }

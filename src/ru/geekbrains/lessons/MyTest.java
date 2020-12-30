@@ -12,7 +12,6 @@ public class MyTest {
         System.out.println("Third Test");
     }
 
-
     @Test (priority = 3)
     public static void test5(){
         System.out.println("Second Test priority = 3");
